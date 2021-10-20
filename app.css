@@ -10,7 +10,7 @@ html, body {
   width: 700px; 
 }
 
-@media (min-width: 320px) {
+@media (min-width: 320px)  {
   video {
     position:absolute;
     margin-left:0;
