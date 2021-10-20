@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Electron media manager application</title>
+    <title>NKC ELECTRON application de gestion des médias</title>
     <link rel="stylesheet" href="app.css">
     <script>window.$ = window.jQuery = require('./js/jquery.js');</script>
     <script src="app.js"></script>
@@ -25,24 +25,22 @@
         <label for="videoSource">Video source: </label><select id="videoSource"></select>
       </div>  
       <div class="select">
-        <label for="audioMute">Muted: </label><input id="audioMute" type="checkbox" checked="true"></input>
+        <label for="audioMute">Sourdine: </label><input id="audioMute" type="checkbox" checked="true"></input>
       </div>
 
       <div class="camera">
-        <video id="video" autoplay>Video stream not available.</video>
-        <button id="startbutton">Take photo</button> 
+        <video id="video" autoplay>Flux vidéo non disponible.</video>
+        <button id="startbutton">Prendre une photo</button> 
       </div>
 
       <canvas id="canvas"></canvas>
       <div class="output">
         <img id="photo" alt="The screen capture will appear in this box."> 
         <button id="clearbutton">Clear</button>
-        <button id="downloadbutton">Download</button> 
+        <button id="downloadbutton">Télécharger</button> 
       </div>
 
-      <div>
-        <p>Sources on GitHub - <a target="_blank" href="https://github.com/Goga74/electron-media-manager">https://github.com/Goga74/electron-media-manager</a></p>
-      </div>
+
     </div>
 
   </body>
